@@ -24,12 +24,12 @@ The directory structures are carefully organized to follow production data scien
 
 text
 ├── data/
-│   ├── pancreasafe_cohort_50_patients.csv  # Synthetic evaluation cohort
-│   └── pancreasafe_cohort_template.csv     # Empty baseline template
-├── app.py                                  # Streamlit portal application
-├── Mini_Project (1).ipynb                 # Model training & serialization pipeline
-├── generate_data.py                        # Synthetic biometric generator script
-└── model.pkl                               # Serialized production model weights
+│   ├── pancreasafe_cohort_50_patients.csv    # Synthetic evaluation cohort
+│   └── pancreasafe_cohort_template.csv       # Empty baseline template
+├── app.py                                    # Streamlit portal application
+├── Mini_Project (1).ipynb                    # Model training & serialization pipeline
+├── generate_data.py                          # Synthetic biometric generator script
+└── model.pkl                                 # Serialized production model weights
 
 🛠️ Technical Stack & Frameworks
 Core Engine: Python 3.9+
