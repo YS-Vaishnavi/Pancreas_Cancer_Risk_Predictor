@@ -43,26 +43,32 @@ Data Manipulation: NumPy & Pandas
 Mathematical Processing: Vectorized biomarker alignment algorithms
 
 🚀 Quick Start Guide
+
 1. Clone the Workspace
 To download this repository to your local runtime workspace:
 
 Bash
 git clone [https://github.com/YOUR_USERNAME/Pancreas_Cancer_Risk_Predictor.git](https://github.com/YOUR_USERNAME/Pancreas_Cancer_Risk_Predictor.git)
 cd Pancreas_Cancer_Risk_Predictor
+
 2. Install Project Dependencies
 Ensure your virtual environment has the core libraries compiled:
 
 Bash
 pip install streamlit scikit-learn pandas numpy
+
 3. Launch the Clinical Portal
 Boot up the local reactive deployment node directly from your machine:
 
 Bash
 streamlit run app.py
-📊 Pipeline Validation & Deployment
+
+📊 Pipeline Validation & Deployment:
+
 The machine learning architecture isolates the training workflows inside Mini_Project (1).ipynb to extract model parameters cleanly. Diagnostic weights are automatically optimized and exported to model.pkl to power the portal interface instantly.
 
 A synthetic clinical validation design was implemented during execution, confirming stable processing manifests across all patient cohorts.
 
 🔒 Security & Clinical Disclaimer
+
 ⚠️ Disclaimer: This system is an engineering prototype evaluated against a synthetic research dataset. It is engineered to demonstrate end-to-end full-stack development patterns and is not validated for human diagnostic applications or live clinical deployment.
